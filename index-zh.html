@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft导航</title>
+  <style>
+    @font-face {
+      font-family: 'Minecraft';
+      src: url('assets/font/Minecraft.ttf') format('truetype');
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://li2012china.github.io/Minecraft-Repository/grass.png') repeat;
+      background-size: 64px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Minecraft', sans-serif;
+      color: #fff;
+      text-shadow: 2px 2px #000;
+    }
+    
+    .container {
+      background: #48494a;
+      padding: 1rem;
+      border: 4px solid;
+      border-top-color: #666;
+      border-left-color: #666;
+      border-right-color: #ccc;
+      border-bottom-color: #ccc;
+      text-align: center;
+      max-width: 800px;
+      width: calc(100% - 2rem);
+      margin: 1rem;
+      box-shadow: 
+        4px 4px 0 rgba(0,0,0,0.3),
+        inset 2px 2px 0 rgba(255,255,255,0.1);
+      image-rendering: pixelated;
+      position: relative;
+      border-radius: 2px;
+      box-sizing: border-box;
+    }
+    
+    h1 {
+      font-size: 4rem;
+      margin: 1rem 0 2rem;
+      text-shadow: 4px 4px #000;
+    }
+    
+    .nav-buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      width: 100%;
+    }
+    
+    .nav-button {
+      background: #8b8b8b;
+      border: 4px solid;
+      border-top-color: #fff;
+      border-left-color: #fff;
+      border-right-color: #555;
+      border-bottom-color: #555;
+      padding: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5rem;
+      transition: all 0.1s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.8rem;
+      text-shadow: 2px 2px #000;
+      image-rendering: pixelated;
+      position: relative;
+    }
+    
+    .nav-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    
+    .nav-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    .nav-description {
+      font-size: 1rem;
+      color: #ddd;
+      text-shadow: 1px 1px #000;
+    }
+    
+    .nav-button:hover {
+      background: #9a9a9a;
+      transform: translateY(-1px);
+    }
+    
+    .nav-button:active {
+      border-top-color: #555;
+      border-left-color: #555;
+      border-right-color: #fff;
+      border-bottom-color: #fff;
+      transform: translateY(0);
+    }
+    
+    .nav-icon {
+      width: 40px;
+      height: 40px;
+      image-rendering: pixelated;
+    }
+    
+    .footer {
+      margin-top: 2rem;
+      font-size: 1rem;
+      color: #aaa;
+      text-shadow: 1px 1px #000;
+    }
+    
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      
+      .nav-button {
+        font-size: 1.2rem;
+        padding: 1rem;
+      }
+      
+      .nav-icon {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  </style>
+  <script>
+    function handleButtonClick(event, url) {
+      event.preventDefault();
+      const audio = new Audio('assets/music/click_stereo.ogg');
+      audio.play();
+      setTimeout(() => {
+        window.open(url, '_blank');
+      }, 1000);
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+<h2>网页版MC</h2>
+    <div class="nav-buttons">
+      <a href="EaglercraftX_1.5.2/EaglercraftX_1.5.2.html" class="nav-button" onclick="handleButtonClick(event, 'EaglercraftX_1.5.2/EaglercraftX_1.5.2.html')">
+        <div class="nav-text">
+          <div class="nav-title">Eagtek_1.5.2</div>
+          <div class="nav-description">游玩1.5.2版本的MC</div>
+        </div>
+      </a>
+
+      <a href="EaglercraftX_1.8/EaglercraftX_1.8.html" class="nav-button" onclick="handleButtonClick(event, 'EaglercraftX_1.8/EaglercraftX_1.8.html')">
+        <div class="nav-text">
+          <div class="nav-title">Eagtek_1.8</div>
+          <div class="nav-description">仅可进入受支持的服务器</div>
+        </div>
+      </a>
+
+      <a href="mcin2D/mcin2D.html" class="nav-button" onclick="handleButtonClick(event, 'mcin2D/mcin2D.html')">
+        <div class="nav-text">
+          <div class="nav-title">mcin2D</div>
+          <div class="nav-description">2D视角的类MC游戏</div>
+        </div>
+      </a>
+
+      <a href="mcinscratch/mcinscratch.html" class="nav-button" onclick="handleButtonClick(event, 'mcinscratch/mcinscratch.html')">
+        <div class="nav-text">
+          <div class="nav-title">mcinscratch</div>
+          <div class="nav-description">由Scratch制作而成的</div>
+        </div>
+      </a>
+
+      <a href="WebMC-JavaScript/WebMC-JavaScript.html" class="nav-button" onclick="handleButtonClick(event, 'WebMC-JavaScript/WebMC-JavaScript.html')">
+        <div class="nav-text">
+          <div class="nav-title">WebMC-JS</div>
+          <div class="nav-description">由JavaScript制作</div>
+        </div>
+      </a>
+    
+      <a href="MC-desmos/MC-desmos.html" class="nav-button" onclick="handleButtonClick(event, 'MC-desmos/MC-desmos.html')">
+        <div class="nav-text">
+          <div class="nav-title">MC-desmos</div>
+          <div class="nav-description">由Desmos制作而成的</div>
+        </div>
+      </a>
+    
+    
+    </div>
+    <div class="footer">
+       网页版类MC游戏合集  | <a href="https://github.com/che11111/WebMC" style="color: #aaa; text-decoration: none;">GitHub</a>  | <a href="index.html" style="color: #aaa; text-decoration: none;">English</a>
+    </div>
+  </div>
+</body>
+</html>
