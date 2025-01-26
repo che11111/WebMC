@@ -2,13 +2,13 @@
 
 Collect numerous Minecraft programmes that can be run on the web.
 
-[Play Now ](https://che11111.github.io/WebMC/)[https://che11111.github.io/WebMC/](https://che11111.github.io/WebMC/)
+[Play Now ! ](https://che11111.github.io/WebMC/)[https://che11111.github.io/WebMC/](https://che11111.github.io/WebMC/)
 
 ![Preview](assets/img/preview.jpeg)
 
-### 1、EaglercraftX_1.5.2
+## 1、EaglercraftX_1.5.2
 
-#### Introduction:
+### Introduction:
 
 This is a web-based version of Minecraft in version 1.5.2, supporting both single-player and multiplayer modes. Single-player save files can also be imported and exported.
 
@@ -23,21 +23,21 @@ lax1dude
 
 
 
-### 2、EaglercraftX_1.8
+## 2、EaglercraftX_1.8
 
-#### Introduction:
+### Introduction:
 
 This is a web-based version of Minecraft in version 1.8, and it can only access supported servers.
 
-#### Code Repository:
+### Code Repository:
 
 https://gitlab.com/lax1dude/eaglercraftx-1.8
 
-#### Author:
+### Author:
 
 lax1dude
 
-#### Remarks:
+### Remarks:
 
 How to use this website to enter a Minecraft server?
 You need to configure the EaglerXBungee plugin on the BungeeCord side of the server you want to enter. In this way, you can use EaglercraftX_1.8 to enter a Minecraft server in version 1.8.
@@ -51,52 +51,52 @@ I have already put the `EaglercraftX_1.8_EaglerXBungee-1.1.3.jar` file into the 
 
 
 
-### 3、mcin2D
+## 3、mcin2D
 
-#### Introduction:
+### Introduction:
 
 This is a web-based game similar to Minecraft with a 2D perspective.
 
-#### Remarks:
+### Remarks:
 
 I found this file on the Internet, but I don't know the information about the author of this project. If anyone knows, please post an Issue to let me know, and I will update the information.
 
 
 
-### 4、mcinscratch
+## 4、mcinscratch
 
-#### Introduction:
+### Introduction:
 
 This is a web-based game similar to Minecraft made using Scratch.
 
-#### Remarks:
+### Remarks:
 
 I found this file on the Internet, but I don't know the information about the author of this project. If anyone knows, please post an Issue to let me know, and I will update the information.
 
 
 
-### 5、WebMC-JavaScript
+## 5、WebMC-JavaScript
 
-#### Introduction:
+### Introduction:
 
 This is a web-based version of Minecraft based on WebGL, written in JavaScript.
 
-#### Code Repository:
+### Code Repository:
 
 https://github.com/jerrychan7/WebMC
 
-#### Author:
+### Author:
 
 jerrychan7
 
 
 
-### 6、MC-desmos
+## 6、MC-desmos
 
-#### Introduction:
+### Introduction:
 
 This is a web-based game similar to Minecraft made using desmos.
 
-#### Remarks:
+### Remarks:
 
 I originally found this on Bilibili, but now I can't find the original video link and the author's information. If anyone knows, please post an Issue to let me know, and I will update the information.
