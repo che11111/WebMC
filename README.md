@@ -6,6 +6,8 @@ Collect numerous Minecraft programmes that can be run on the web.
 
 ![Preview](assets/img/preview.jpeg)
 
+---
+
 ## 1、EaglercraftX_1.5.2
 
 ### Introduction:
