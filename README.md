@@ -35,6 +35,8 @@ This is a web-based version of Minecraft in version 1.8, and it can only access 
 
 https://gitlab.com/lax1dude/eaglercraftx-1.8
 
+https://git.eaglercraft.rip/eaglercraft/eaglercraft-1.8
+
 ### Author:
 
 lax1dude
