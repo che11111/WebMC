@@ -37,6 +37,8 @@ https://gitlab.com/lax1dude/eaglercraftx-1.8
 
 https://git.eaglercraft.rip/eaglercraft/eaglercraft-1.8
 
+https://eaglercraft.com/
+
 ### Author:
 
 lax1dude
